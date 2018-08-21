@@ -1,3 +1,11 @@
+//Machine Learning mode constants - Change these as you wish
+const totalPopulation = 100; //Number of games played each generation
+const numPredicts = 1; //Number of predictions a mlplayer can make every frame (allows rotating multiple times per frame, ...)
+const mutationRate = 0.05; //Probability of a brain having one (or more) weights mutated
+const differentGames = false; //Play different games each generation (or not)
+let progressiveGenerations = true; //Limit the number of shapes per generation in order to master the early stages of the game before proceeding
+
+
 //Page Variables
 let logo;
 let canvas;
@@ -38,13 +46,6 @@ let lastIndex;
 let playOnce;
 let gamesPlayed = 0;
 
-
-//Machine Learning mode constants
-const totalPopulation = 100;
-const numPredicts = 1;
-const mutationRate = 0.05;
-const differentGames = false;
-let progressiveGenerations = true;
 
 //Machine Learning mode variables (statistics, ...)
 let ML;
@@ -415,6 +416,7 @@ function resetML()
 		nextShapes = [];
 }
 
+//Resets the generation based statistics
 function resetGenStats()
 {
 	averageLinesRemoved = 0;
