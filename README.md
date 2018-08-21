@@ -13,7 +13,7 @@ Some include enabling/disabling progressive generations (number of shapes limite
 The fitness of each game is relative to the other games of the same generation and is based on the game's score.
 The score is determined by how long the game is being played, how many lines are cleared, how many shapes are added (non progressive generations), density, height differences between columns, number of holes and how many shapes are dropped.
 
-###Neuroevolution
+### Neuroevolution
 
 The algorithm for neuroevolution is working but takes a bit of time training to see significant improvement.
 
