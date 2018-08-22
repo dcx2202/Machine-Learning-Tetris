@@ -4,6 +4,8 @@
 
 ## https://dcx2202.github.io/Machine-Learning-Tetris/
 
+You can play using the WASD keys for moving, dropping and rotating, you can increase/decrease game speed with X and C and toggle the machine learning mode with V. You can also click on the handheld device buttons (useful if you are on mobile).
+
 ### You can edit a few parameters to change different aspects.
 
 Some include enabling/disabling progressive generations (number of shapes limited per generation so as to master the first stages of the game before proceeding), play a different game each generation or not, population size and mutation rate.
