@@ -173,7 +173,6 @@ function setup()
 	resetGenStats();
 
 	pickShape();
-	addShape(nextShape);
 }
 
 //Called when a key is pressed, triggering the action
